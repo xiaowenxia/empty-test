@@ -397,7 +397,6 @@ export PERL_PATH
 LIB_FILE=libgit.a
 XDIFF_LIB=xdiff/lib.a
 
-LIB_H += advice.h
 LIB_H += archive.h
 LIB_H += attr.h
 LIB_H += blob.h
@@ -455,7 +454,6 @@ LIB_H += utf8.h
 LIB_H += wt-status.h
 
 LIB_OBJS += abspath.o
-LIB_OBJS += advice.o
 LIB_OBJS += alias.o
 LIB_OBJS += alloc.o
 LIB_OBJS += archive.o

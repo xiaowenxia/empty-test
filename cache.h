@@ -4,7 +4,6 @@
 #include "git-compat-util.h"
 #include "strbuf.h"
 #include "hash.h"
-#include "advice.h"
 
 #include SHA1_HEADER
 #ifndef git_SHA_CTX
